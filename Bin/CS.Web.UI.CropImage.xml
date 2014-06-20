@@ -1,0 +1,201 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CS.Web.UI.CropImage</name>
+    </assembly>
+    <members>
+        <member name="T:CS.Web.UI.CropImage">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CS.Web.UI.CropImage.OnCropped(System.Object,CS.Web.UI.CropImageEventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:CS.Web.UI.CropImage.OnCropping(System.Object,CS.Web.UI.CropImageEventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:CS.Web.UI.CropImage.Crop(System.String)">
+            <summary>
+            Call this function when button clicked.
+            </summary>
+            <param name="path"></param>
+        </member>
+        <member name="M:CS.Web.UI.CropImage.CreateChildControls">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CS.Web.UI.CropImage.RenderEndTag(System.Web.UI.HtmlTextWriter)">
+            <summary>
+            
+            </summary>
+            <param name="writer"></param>
+        </member>
+        <member name="M:CS.Web.UI.CropImage.RenderBeginTag(System.Web.UI.HtmlTextWriter)">
+            <summary>
+            
+            </summary>
+            <param name="writer"></param>
+        </member>
+        <member name="E:CS.Web.UI.CropImage.Cropped">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="E:CS.Web.UI.CropImage.Cropping">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:CS.Web.UI.CropImage.ImagePath">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:CS.Web.UI.CropImage.DebugMode">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:CS.Web.UI.CropImage.CanvasHeight">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:CS.Web.UI.CropImage.EnablePreview">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:CS.Web.UI.CropImage.CanvasWidth">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:CS.Web.UI.CropImage.Image">
+            <summary>
+            ID of the asp.net Image control to be cropped.
+            </summary>
+        </member>
+        <member name="P:CS.Web.UI.CropImage.MaxSize">
+            <summary>
+            MaxSize of the asp.net Image control to be cropped.
+            </summary>
+        </member>
+        <member name="P:CS.Web.UI.CropImage.MinSize">
+            <summary>
+            MinSize of the asp.net Image control to be cropped.
+            </summary>
+        </member>
+        <member name="P:CS.Web.UI.CropImage.CropButton">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:CS.Web.UI.CropImage.CropButtonID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:CS.Web.UI.CropImage.X">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:CS.Web.UI.CropImage.Y">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:CS.Web.UI.CropImage.X2">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:CS.Web.UI.CropImage.Y2">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:CS.Web.UI.CropImage.W">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:CS.Web.UI.CropImage.H">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:CS.Web.UI.CropImage.ScriptPath">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:CS.Web.UI.CropImage.IncludeJQuery">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:CS.Web.UI.CropImage.Ratio">
+            <summary>
+            If you set ratio no need to set both W and H properties.
+            </summary>
+        </member>
+        <member name="T:CS.Web.UI.CropImage.CropImageEventHandler">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:CS.Web.UI.CropImageEventArgs">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CS.Web.UI.CropImageEventArgs.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:CS.Web.UI.CropImageEventArgs.X">
+            <summary>
+            X coordinate of the selection
+            </summary>
+        </member>
+        <member name="P:CS.Web.UI.CropImageEventArgs.Y">
+            <summary>
+            Y coordinate of the selection
+            </summary>
+        </member>
+        <member name="P:CS.Web.UI.CropImageEventArgs.Width">
+            <summary>
+            Width of the selection
+            </summary>
+        </member>
+        <member name="P:CS.Web.UI.CropImageEventArgs.Height">
+            <summary>
+            Height of the selection
+            </summary>
+        </member>
+        <member name="M:CS.Web.UI.CropImageDesigner.GetDesignTimeHtml">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:CS.Web.UI.CropImageDesigner.AllowResize">
+            <summary>
+            
+            </summary>
+        </member>
+    </members>
+</doc>
